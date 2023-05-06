@@ -1,6 +1,6 @@
 # To-Do-List
 
-!(image/to-do-list.jpg)
+![](image/to-do-list.jpg)
 
 ## Demo
 

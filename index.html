@@ -10,10 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="image/check.png">
     <link href="css/body.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/section.css" rel="stylesheet">
-    <link href="css/task.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -23,26 +20,16 @@
 </head>
 
 <body class="body">
-    <header>
-        <h1 class="header">To do list</h1>
-    </header>
-    <main>
-        <section class="section">
-            <h2 class="header__subheader">Add new task</h2>
-            <div>
-                <form>
-                    <input type="text" name="newTask" placeholder="What is there to do?" required>
-                    <button>Add task</button>
-                </form>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="header__subheader">List of tasks</h2>
-            <div class="js-tasks">
-                <ul></ul>
-            </div>
-        </section>
-    </main>
+    <p class="body__field">Lista zadań</p>
+    <div class="container">
+        <label class="container__field">Dodaj nowe zadanie</label>
+        <label class="container__field">
+            <input>
+            <button class="container__button">Dodaj zadanie</button>
+            </input>
+        </label>
+        <label class="container__field--last">Lista zadań</label>
+    </div>
 </body>
 
 </html>

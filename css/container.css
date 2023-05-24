@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid #d0cfcf;
+    margin: 10px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__button {
+    background-color: teal;
+    color: #f0ffff;
+    border: 2px solid #7d7d7d;
+}
+
+.container__field {
+    background-color: white;
+    border: 2px solid #d0cfcf;
+    padding: 10px;
+    width: 100%;
+}
+
+.container__field--last {
+    background-color: white;
+    border: 2px solid #d0cfcf;
+    margin-top: 5px;
+    text-align: center;
+}
